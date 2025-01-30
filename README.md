@@ -15,7 +15,7 @@ To set up and run TAQFAD, follow the steps below:
 ### Step 1: Download the Model
 The trained model weights (`safety_equipment_best.pt`) are available for download via Google Drive. Please visit the following link to download the model:
 
-➡ **[Download Model Weights](#)** *(Replace with the actual Google Drive link)*
+➡ **[Download Model Weights](https://drive.google.com/file/d/1N9G3AgsdyNjsvWkf9SDJn5GkssO0wTFE/view?usp=drive_link)** 
 
 Once downloaded, place `safety_equipment_best.pt` in the project directory.
 
