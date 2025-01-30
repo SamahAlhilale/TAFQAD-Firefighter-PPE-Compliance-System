@@ -21,14 +21,36 @@ Once downloaded, place `safety_equipment_best.pt` in the project directory.
 
 ---
 
-### Step 2: Install Dependencies
+
+### Step 2: Set Up the Virtual Environment
+
+It is recommended to use a virtual environment to manage dependencies. Follow these steps to create and activate a virtual environment:
+
+#### **For Windows:**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### **For macOS/Linux:**
+```bash
+Copy
+Edit
+python3 -m venv venv
+source venv/bin/activate
+```
+
+
+### Step 3: Install Dependencies
 Ensure that you have Python installed (preferably Python 3.8+). Then, install the required dependencies by running:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 3: Your project directory should have the following structure:
+
+
+### Step 4: Your project directory should have the following structure:
 ``` 
 TAQFAD/
 │-- _pycache_/
@@ -50,11 +72,18 @@ TAQFAD/
 - firebase_credentials.json - Firebase authentication file.
 - Background2.jpg, Background3.jpg, Logo2.png - UI assets.
 
-### Step 4:  Run the Streamlit Application
+### Step 5:  Run the Streamlit Application
 After installing the dependencies and downloading the model, launch the Streamlit app by running:
 ```
 streamlit run MainCode.py
 ```
 
+---
 
+## Contact
+For questions or support, please reach out to:
+- Samah Alhilale | samahalhilale@outlook.com
+- Razan Alqurashi | razant1425@gmail.com
+- Bashayer Khan | bbss891@gmail.com
+- Asrar Khadawurdi | asrar.y.k2003@gmail.com
 
