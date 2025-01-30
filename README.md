@@ -34,8 +34,6 @@ venv\Scripts\activate
 
 #### **For macOS/Linux:**
 ```bash
-Copy
-Edit
 python3 -m venv venv
 source venv/bin/activate
 ```
